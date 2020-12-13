@@ -1,0 +1,1 @@
+db.empleados.remove({"Dep":20 })

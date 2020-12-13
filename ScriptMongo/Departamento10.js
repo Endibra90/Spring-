@@ -1,0 +1,1 @@
+db.empleados.find({"Dep":10}).pretty()

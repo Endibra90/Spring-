@@ -1,0 +1,1 @@
+db.empleados.find({$and : [{"Salario" : {$gt:1300}},{"Oficio":"Profesora"}]}).pretty()

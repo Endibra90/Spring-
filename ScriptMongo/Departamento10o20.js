@@ -1,0 +1,1 @@
+db.empleados.find({$or : [{"Dep" :10 } , {"Dep": 20 }]}).pretty()

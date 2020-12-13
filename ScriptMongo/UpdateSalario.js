@@ -1,0 +1,1 @@
+db.getCollection("empleados").aggregate([{$match: { Oficio: "Analista" }},{$set:{Salario:{$sum:["$Salario",100]}}}])
